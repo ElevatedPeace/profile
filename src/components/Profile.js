@@ -27,9 +27,9 @@ const Profile = () => {
         }
       }).map((val, ind) => {
         return (
-            <div className="card" style={{background:"white", padding:"10px"}}>
+            <div key={ind} className="card" style={{background:"white", padding:"10px"}}>
           <ProfileCard
-            key={ind}
+            
             picture={val.picture}
             id={val.id}
             title={val.title}
