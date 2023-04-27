@@ -1,0 +1,13 @@
+.UsersProfile {
+  text-align: center;
+  width: fit-content;
+  margin: 0 30%;
+}
+
+@media screen and (max-width: 900px) {
+  .UsersProfile {
+    margin: 0 15%;
+    font-size: 12px;
+    
+  }
+}
